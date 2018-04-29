@@ -1,0 +1,124 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' data: fonts.gstatic.com;"> -->
+      <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;"> -->
+      
+    </head>
+    <title>Porfolio</title>
+
+    <body class="sec-1-bg-color">
+      <div class="row ">
+        <div class="col s12  m12 l12 xl12 center-align" style=" height: 5vh"></div>
+          <div class="col s12 m4 l4">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="./images/pp.jpeg">
+                <span class="card-title card-name">RajaG</span>
+              </div>
+              <div class="card-content flow-text">
+                <p>Front-end Developer under training </p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m8 l8">
+            <ul class="collapsible expandable ">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>Interested Technologies</div>
+                  <div class="collapsible-body"><span>
+                    <ul class="collection">
+                      <li class="collection-item avatar">
+                        <img src="./images/html5.png" alt="" class="circle responsive-img">
+                        <span class="title"><p>HTML 5 </p> </span>
+                        <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard.</p>
+                      </li>
+                      <li class="collection-item avatar">
+                        <img src="./images/css.png" alt="" class="circle responsive-img">
+                        <span class="title"><p>CSS</p> </span>
+                        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p> 
+                      </li>
+                      <li class="collection-item avatar">
+                        <img src="./images/js.png" alt="" class="circle responsive-img">
+                        <span class="title"><p>JAVASCRIPT</p></span>
+                        <p>
+                          JavaScript often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
+                          Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web.
+                        </p>
+                      </li>
+                      <li class="collection-item avatar">
+                        <img src="./images/angularjs.png" alt="" class="circle responsive-img">
+                        <span class="title"><p>ANGULAR</p></span>
+                        <p>
+                            AngularJS is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications.
+                        </p>
+                      </li>
+                    </ul></span>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">filter_vintage</i>Hobbies</div>
+                  <div class="collapsible-body">
+                    <ul class="collection ">
+                      <li class="collection-item deep-purple lighten-4 col s12 m12 l4 xl4">Reading Books</li>
+                      <li class=" collection-item  indigo lighten-4  col s12 m12 l4 xl4">Listening to Music</li>
+                      <li class=" collection-item blue lighten-4 col s12 m12 l4 xl4">Watching Movies</li>
+                      <li class="collection-item light-blue lighten-4 col s12 m12 l4 xl4">Art Lover</li>
+                      <li class=" collection-item  green lighten-4  col s12 m12 l4 xl4">Eating</li>
+                      <li class=" collection-item lime lighten-4 col s12 m12 l4 xl4">Sleeping</li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">whatshot</i>Professional Experience</div>
+                  <div class="collapsible-body">
+                      <ul class="collection ">
+                        <li class="collection-item z-depth-5">
+                            Have Good Knowledge about HTML5, CSS. Been worked as Manual Tester for more than 1 year.
+                        </li>
+                      </ul></span>
+                  </div>
+                </li>
+              </ul>
+          </div>
+          <div class="col s12  m12 l12 xl12 center-align" style=" height: 2vh"></div>
+        </div>  
+      <!--JavaScript at end of body for optimized loading-->
+      <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+      <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    </body>
+  </html>
+  
+  <script>
+  var elem = document.querySelector('.collapsible.expandable');
+  var instance = M.Collapsible.init(elem, {
+    accordion: true
+  });
+  </script>
+  <style>
+      body{
+        background-color: blue lighten-2;
+      }
+      .flexbox{
+        display: flex;
+        justify-content: center;
+      }
+      .card .card-image .card-title {
+        text-align: justify;
+        color: black;
+      }
+      .sec-1-bg-color{
+        background-color: #eceff1;
+      }
+  </style>
+        
